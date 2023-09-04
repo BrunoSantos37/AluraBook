@@ -3,9 +3,42 @@ hr {
 }
 
 .rodape {
-    background-color: var(--branco);
+    background-color: var(--white);
 }
 
 .rodape__titulo {
     padding: 1em 1em;
+}
+
+.rodape {
+    display: none;
+}
+
+@media screen and (min-width:1024px) {
+    .rodape {
+        display: flex;
+        justify-content: space-around;
+        padding: 2em 0;
+    }
+
+    .rodape__titulo {
+        font-size: 24px;
+    }
+
+    .rodape__lista-titulo {
+        color: var(--cinza-fraco);
+        font-size: 14px;
+    }
+
+    .rodape__lista-item {
+        display: flex;
+        align-items: center;
+        margin: 0.6em 0;
+    }
+
+    .rodape__lista-link {
+        color: var(--cinzinha);
+        text-decoration: none;
+        margin-left: 0.5em;
+    }
 }

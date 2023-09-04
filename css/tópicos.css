@@ -6,7 +6,7 @@
 
 .tópicos__titulo {
     font-weight: 300;
-    color: var(--branco);
+    color: var(--white);
     text-transform: uppercase;
     margin: 1.5em 0;
 }
@@ -22,10 +22,24 @@
 }
 
 .tópicos__link {
-    color: var(--branco);
+    color: var(--white);
     background-color: var(--amarelinho);
     padding: 1em;
     text-decoration: none;
     font-size: 14px;
     font-weight: 700;
+}
+
+@media screen and (min-width:1024px) {
+    .tópicos__titulo {
+        font-size: 24px;
+    }
+
+    .tópicos__item {
+        margin: 2.5em 0.5em;
+    }
+
+    .tópicos__link {
+        font-size: 24px;
+    }
 }
