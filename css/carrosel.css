@@ -107,3 +107,40 @@
         margin: 2em auto;
     }
 }
+
+@media screen and (min-width: 1728px){
+    .container__carrosel {
+        display: flex;
+        margin: 3em 15vw 2em 15vw;
+    }
+
+    .swiper-pagination {
+        margin: 1em 0;
+    }
+
+    .swiper {
+        width: 50%;
+    }
+
+    .descrição {
+        margin-right: 2em;
+    } 
+
+    .descriçao__titulo {
+        font-size: 32px;
+    }
+
+    .descriçao__titulo-livro {
+        margin: 1em 0;
+    }
+
+    .descriçao__texto {
+        font-size: 16px;
+    }
+
+    .card {
+        width: 50%;
+        margin-left: 3em;
+    }
+}
+    
